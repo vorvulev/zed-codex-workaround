@@ -1,0 +1,9 @@
+{
+  "agent_servers": {
+    "Codex-CLI": {
+      "type": "custom",
+      "command": "/Users/<you>/.local/codex-acp-0.10.0/node_modules/.bin/codex-acp-darwin-arm64",
+      "args": []
+    }
+  }
+}
