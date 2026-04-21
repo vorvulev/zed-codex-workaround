@@ -54,6 +54,21 @@ npm i --save-exact @zed-industries/codex-acp@0.10.0
 - Перезапустить Zed (или `Reload Window`).
 - Открыть правку агента и убедиться, что доступны действия `Keep/Reject`.
 
+## Troubleshooting
+
+- Симптом: `keep/reject` не появляются.
+  Фикс: проверь, что используется именно `Codex-CLI` с `@zed-industries/codex-acp@0.10.0` или локальный бинарник `0.10.0`, затем перезапусти Zed.
+- Симптом: `command not found: gh`.
+  Фикс: установить GitHub CLI (`brew install gh`) и войти (`gh auth login`).
+- Симптом: `current directory is not a git repository`.
+  Фикс: в папке проекта выполнить `git init -b main`, затем `git add . && git commit -m "init"`.
+- Симптом: путь к локальному бинарнику не работает.
+  Фикс: проверить наличие файла `~/.local/codex-acp-0.10.0/node_modules/.bin/codex-acp-darwin-arm64` и права на запуск (`chmod +x` при необходимости).
+- Симптом: после правки `settings.json` ничего не изменилось.
+  Фикс: убедиться, что редактируется активный файл `~/.config/zed/settings.json` и нет конкурирующей записи в другом профиле/инстансе Zed.
+- Симптом: `args` остались от `npx` при локальном `command`.
+  Фикс: для локального бинарника ставить `\"args\": []`, иначе конфиг смешивает два режима запуска.
+
 ## Примечание
 
 Это временный workaround до фикса в новых версиях `codex-acp`.
