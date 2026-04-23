@@ -1,0 +1,453 @@
+{
+  "Control: if": {
+    "prefix": "if",
+    "body": ["{% if ${1:condition} %} ${0} {% endif %}"],
+    "description": "Базовый if-блок"
+  },
+  "Control: if / else": {
+    "prefix": "ife",
+    "body": [
+      "{% if ${1:condition} %}",
+      "  ${2}",
+      "{% else %}",
+      "  ${0}",
+      "{% endif %}"
+    ],
+    "description": "if/else блок"
+  },
+  "Control: if / elsif / else": {
+    "prefix": "ifel",
+    "body": [
+      "{% if ${1:first_condition} %}",
+      "  ${2}",
+      "{% elsif ${3:second_condition} %}",
+      "  ${4}",
+      "{% else %}",
+      "  ${0}",
+      "{% endif %}"
+    ],
+    "description": "if/elsif/else блок"
+  },
+  "Control: unless": {
+    "prefix": "unless",
+    "body": ["{% unless ${1:condition} %} ${0} {% endunless %}"],
+    "description": "Проверка отрицания условия"
+  },
+  "Control: case": {
+    "prefix": "case",
+    "body": [
+      "{% case ${1:value} %}",
+      "{% when ${2:variant_1} %}",
+      "  ${3}",
+      "{% when ${4:variant_2} %}",
+      "  ${5}",
+      "{% else %}",
+      "  ${0}",
+      "{% endcase %}"
+    ],
+    "description": "case/when/else блок"
+  },
+  "Loops: for": {
+    "prefix": "for",
+    "body": [
+      "{% for ${1:item} in ${2:collection} %}",
+      "  ${0}",
+      "{% endfor %}"
+    ],
+    "description": "Цикл по коллекции"
+  },
+  "Loops: for / else": {
+    "prefix": "fore",
+    "body": [
+      "{% for ${1:item} in ${2:collection} %}",
+      "  ${3}",
+      "{% else %}",
+      "  ${0}",
+      "{% endfor %}"
+    ],
+    "description": "Цикл с веткой else"
+  },
+  "Loops: for range": {
+    "prefix": "forr",
+    "body": [
+      "{% for ${1:i} in (${2:1}..${3:10}) %}",
+      "  ${0}",
+      "{% endfor %}"
+    ],
+    "description": "Цикл по диапазону"
+  },
+  "Loops: cycle": {
+    "prefix": "cycle",
+    "body": [
+      "{% cycle ${1:'one'}, ${2:'two'}, ${3:'three'} %}"
+    ],
+    "description": "Чередование значений"
+  },
+  "Loops: break": {
+    "prefix": "break",
+    "body": [
+      "{% break %}"
+    ],
+    "description": "Выход из цикла"
+  },
+  "Loops: continue": {
+    "prefix": "continue",
+    "body": [
+      "{% continue %}"
+    ],
+    "description": "Переход к следующей итерации"
+  },
+  "Loops: tablerow": {
+    "prefix": "tablerow",
+    "body": [
+      "<table>",
+      "{% tablerow ${1:item} in ${2:collection} cols:${3:3} %}",
+      "  ${0}",
+      "{% endtablerow %}",
+      "</table>"
+    ],
+    "description": "Табличный вывод через tablerow"
+  },
+  "Variables: assign": {
+    "prefix": "assign",
+    "body": [
+      "{% assign ${1:name} = ${2:value} %}"
+    ],
+    "description": "Присвоение переменной"
+  },
+  "Variables: capture": {
+    "prefix": "capture",
+    "body": [
+      "{% capture ${1:name} %}",
+      "  ${0}",
+      "{% endcapture %}"
+    ],
+    "description": "Сохранение блока в переменную"
+  },
+  "Variables: increment": {
+    "prefix": "increment",
+    "body": [
+      "{% increment ${1:counter} %}"
+    ],
+    "description": "Увеличение счетчика"
+  },
+  "Variables: decrement": {
+    "prefix": "decrement",
+    "body": [
+      "{% decrement ${1:counter} %}"
+    ],
+    "description": "Уменьшение счетчика"
+  },
+  "Output: echo": {
+    "prefix": "echo",
+    "body": [
+      "{% echo ${1:expression} %}"
+    ],
+    "description": "Вывод выражения через tag"
+  },
+  "Output: variable": {
+    "prefix": "var",
+    "body": [
+      "{{ ${1:variable} }}"
+    ],
+    "description": "Вывод переменной"
+  },
+  "Structure: comment": {
+    "prefix": "comment",
+    "body": ["{% comment %} ${0} {% endcomment %}"],
+    "description": "Liquid-комментарий"
+  },
+  "Structure: raw": {
+    "prefix": "raw",
+    "body": [
+      "{% raw %}",
+      "  ${0}",
+      "{% endraw %}"
+    ],
+    "description": "Отключение обработки Liquid внутри блока"
+  },
+  "Structure: include": {
+    "prefix": "include",
+    "body": [
+      "{% include '${1:snippet_name}' %}"
+    ],
+    "description": "Подключение сниппета"
+  },
+  "Pagination: paginate": {
+    "prefix": "paginate",
+    "body": [
+      "{% paginate ${1:collection.products} by ${2:12} %}",
+      "  ${0}",
+      "{% endpaginate %}"
+    ],
+    "description": "Пагинация списка"
+  },
+  "Widget: widget_settings": {
+    "prefix": "wset",
+    "body": [
+      "{{ widget_settings.${1:key} }}"
+    ],
+    "description": "Доступ к настройке виджета"
+  },
+  "Widget: data.blocks loop": {
+    "prefix": "wblocks",
+    "body": [
+      "{% for block in data.blocks %}",
+      "  {{ block.${1:name} }}",
+      "{% endfor %}"
+    ],
+    "description": "Цикл по блокам виджета"
+  },
+  "Widget: widget_messages": {
+    "prefix": "wmsg",
+    "body": [
+      "{{ widget_messages.${1:key} }}"
+    ],
+    "description": "Тексты из messages.json"
+  },
+  "Widget: help": {
+    "prefix": "help",
+    "body": [
+      "{% help${0} %}"
+    ],
+    "description": "Показать доступные переменные"
+  },
+  "Widget: help object": {
+    "prefix": "helpo",
+    "body": [
+      "{% help ${1:account} %}"
+    ],
+    "description": "Показать свойства объекта"
+  },
+  "Entities: account": {
+    "prefix": "account",
+    "body": [
+      "{{ account }}"
+    ],
+    "description": "Родительская сущность account"
+  },
+  "Entities: article": {
+    "prefix": "article",
+    "body": [
+      "{{ article${0} }}"
+    ],
+    "description": "Родительская сущность article"
+  },
+  "Entities: blog": {
+    "prefix": "blog",
+    "body": [
+      "{{ blog }}"
+    ],
+    "description": "Родительская сущность blog"
+  },
+  "Entities: block": {
+    "prefix": "block",
+    "body": [
+      "{{ block }}"
+    ],
+    "description": "Родительская сущность block"
+  },
+  "Entities: block_lists": {
+    "prefix": "blocklists",
+    "body": [
+      "{{ block_lists${0} }}"
+    ],
+    "description": "Родительская сущность block_lists"
+  },
+  "Entities: blocks": {
+    "prefix": "blocks",
+    "body": [
+      "{{ blocks${0} }}"
+    ],
+    "description": "Родительская сущность blocks"
+  },
+  "Entities: bundle_component": {
+    "prefix": "bundle",
+    "body": [
+      "{{ bundle_component }}"
+    ],
+    "description": "Родительская сущность bundle_component"
+  },
+  "Entities: cart": {
+    "prefix": "cart",
+    "body": [
+      "{{ cart${0} }}"
+    ],
+    "description": "Родительская сущность cart"
+  },
+  "Entities: characteristic": {
+    "prefix": "characteristic",
+    "body": [
+      "{{ characteristic${0} }}"
+    ],
+    "description": "Родительская сущность characteristic"
+  },
+  "Entities: client_group": {
+    "prefix": "clientgroup",
+    "body": [
+      "{{ client_group${0} }}"
+    ],
+    "description": "Родительская сущность client_group"
+  },
+  "Entities: collection": {
+    "prefix": "collection",
+    "body": [
+      "{{ collection${0} }}"
+    ],
+    "description": "Родительская сущность collection"
+  },
+  "Entities: collections": {
+    "prefix": "collections",
+    "body": [
+      "{{ collections${0} }}"
+    ],
+    "description": "Родительская сущность collections"
+  },
+  "Entities: comment": {
+    "prefix": "commentobj",
+    "body": [
+      "{{ comment }}"
+    ],
+    "description": "Родительская сущность comment"
+  },
+  "Entities: current_collections": {
+    "prefix": "currentcollections",
+    "body": [
+      "{{ current_collections }}"
+    ],
+    "description": "Родительская сущность current_collections"
+  },
+  "Entities: discount": {
+    "prefix": "discount",
+    "body": [
+      "{{ discount }}"
+    ],
+    "description": "Родительская сущность discount"
+  },
+  "Entities: field": {
+    "prefix": "field",
+    "body": [
+      "{{ field }}"
+    ],
+    "description": "Родительская сущность field"
+  },
+  "Entities: filter": {
+    "prefix": "filter",
+    "body": [
+      "{{ filter }}"
+    ],
+    "description": "Родительская сущность filter"
+  },
+  "Entities: forloop": {
+    "prefix": "forloop",
+    "body": [
+      "{{ forloop }}"
+    ],
+    "description": "Родительская сущность forloop"
+  },
+  "Entities: item": {
+    "prefix": "item",
+    "body": [
+      "{{ item }}"
+    ],
+    "description": "Родительская сущность item"
+  },
+  "Entities: language": {
+    "prefix": "language",
+    "body": [
+      "{{ language }}"
+    ],
+    "description": "Родительская сущность language"
+  },
+  "Entities: link": {
+    "prefix": "link",
+    "body": [
+      "{{ link }}"
+    ],
+    "description": "Родительская сущность link"
+  },
+  "Entities: linklist": {
+    "prefix": "linklist",
+    "body": [
+      "{{ linklist }}"
+    ],
+    "description": "Родительская сущность linklist"
+  },
+  "Entities: linklists": {
+    "prefix": "linklists",
+    "body": [
+      "{{ linklists${0} }}"
+    ],
+    "description": "Родительская сущность linklists"
+  },
+  "Entities: option_name": {
+    "prefix": "optionname",
+    "body": [
+      "{{ option_name }}"
+    ],
+    "description": "Родительская сущность option_name"
+  },
+  "Entities: option_value": {
+    "prefix": "optionvalue",
+    "body": [
+      "{{ option_value }}"
+    ],
+    "description": "Родительская сущность option_value"
+  },
+  "Entities: order": {
+    "prefix": "order",
+    "body": [
+      "{{ order }}"
+    ],
+    "description": "Родительская сущность order"
+  },
+  "Entities: page": {
+    "prefix": "page",
+    "body": [
+      "{{ page }}"
+    ],
+    "description": "Родительская сущность page"
+  },
+  "Entities: paginate": {
+    "prefix": "paginateobj",
+    "body": [
+      "{{ paginate }}"
+    ],
+    "description": "Родительская сущность paginate"
+  },
+  "Entities: product": {
+    "prefix": "product",
+    "body": [
+      "{{ product${0} }}"
+    ],
+    "description": "Родительская сущность product"
+  },
+  "Entities: property": {
+    "prefix": "property",
+    "body": [
+      "{{ property }}"
+    ],
+    "description": "Родительская сущность property"
+  },
+  "Entities: review": {
+    "prefix": "review",
+    "body": [
+      "{{ review }}"
+    ],
+    "description": "Родительская сущность review"
+  },
+  "Entities: variant": {
+    "prefix": "variant",
+    "body": [
+      "{{ variant }}"
+    ],
+    "description": "Родительская сущность variant"
+  },
+  "Helpers: product characteristic": {
+    "prefix": "propchar",
+    "body": [
+      "{{ product.properties.${1:handle}.characteristics.first.title }}"
+    ],
+    "description": "Первое значение характеристики свойства товара"
+  }
+}
