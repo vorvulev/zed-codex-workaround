@@ -1,0 +1,702 @@
+{
+  "InSales var --bg": {
+    "prefix": "--bg",
+    "body": [
+      "--bg"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --bg-half-shade": {
+    "prefix": "--bg-half-shade",
+    "body": [
+      "--bg-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --bg-major-shade": {
+    "prefix": "--bg-major-shade",
+    "body": [
+      "--bg-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --bg-minor-shade": {
+    "prefix": "--bg-minor-shade",
+    "body": [
+      "--bg-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --border-radius": {
+    "prefix": "--border-radius",
+    "body": [
+      "--border-radius"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --card-font-size": {
+    "prefix": "--card-font-size",
+    "body": [
+      "--card-font-size"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --catalog-grid-list-column-gap": {
+    "prefix": "--catalog-grid-list-column-gap",
+    "body": [
+      "--catalog-grid-list-column-gap"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --catalog-grid-list-column-gap-mobile": {
+    "prefix": "--catalog-grid-list-column-gap-mobile",
+    "body": [
+      "--catalog-grid-list-column-gap-mobile"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --catalog-grid-list-min-width": {
+    "prefix": "--catalog-grid-list-min-width",
+    "body": [
+      "--catalog-grid-list-min-width"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --catalog-grid-list-min-width-mobile": {
+    "prefix": "--catalog-grid-list-min-width-mobile",
+    "body": [
+      "--catalog-grid-list-min-width-mobile"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --catalog-grid-list-row-gap": {
+    "prefix": "--catalog-grid-list-row-gap",
+    "body": [
+      "--catalog-grid-list-row-gap"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --catalog-grid-list-row-gap-mobile": {
+    "prefix": "--catalog-grid-list-row-gap-mobile",
+    "body": [
+      "--catalog-grid-list-row-gap-mobile"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-accent-text": {
+    "prefix": "--color-accent-text",
+    "body": [
+      "--color-accent-text"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-accent-text-half-shade": {
+    "prefix": "--color-accent-text-half-shade",
+    "body": [
+      "--color-accent-text-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-accent-text-major-shade": {
+    "prefix": "--color-accent-text-major-shade",
+    "body": [
+      "--color-accent-text-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-accent-text-minor-shade": {
+    "prefix": "--color-accent-text-minor-shade",
+    "body": [
+      "--color-accent-text-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-btn-bg": {
+    "prefix": "--color-btn-bg",
+    "body": [
+      "--color-btn-bg"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-btn-bg-half-shade": {
+    "prefix": "--color-btn-bg-half-shade",
+    "body": [
+      "--color-btn-bg-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-btn-bg-major-shade": {
+    "prefix": "--color-btn-bg-major-shade",
+    "body": [
+      "--color-btn-bg-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-btn-bg-minor-shade": {
+    "prefix": "--color-btn-bg-minor-shade",
+    "body": [
+      "--color-btn-bg-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-btn-color": {
+    "prefix": "--color-btn-color",
+    "body": [
+      "--color-btn-color"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-btn-color-minor-shade": {
+    "prefix": "--color-btn-color-minor-shade",
+    "body": [
+      "--color-btn-color-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-error": {
+    "prefix": "--color-error",
+    "body": [
+      "--color-error"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-form-controls-bg": {
+    "prefix": "--color-form-controls-bg",
+    "body": [
+      "--color-form-controls-bg"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-form-controls-bg-disabled": {
+    "prefix": "--color-form-controls-bg-disabled",
+    "body": [
+      "--color-form-controls-bg-disabled"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-form-controls-border-color": {
+    "prefix": "--color-form-controls-border-color",
+    "body": [
+      "--color-form-controls-border-color"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-form-controls-color": {
+    "prefix": "--color-form-controls-color",
+    "body": [
+      "--color-form-controls-color"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-error": {
+    "prefix": "--color-notice-error",
+    "body": [
+      "--color-notice-error"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-error-half-shade": {
+    "prefix": "--color-notice-error-half-shade",
+    "body": [
+      "--color-notice-error-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-error-major-shade": {
+    "prefix": "--color-notice-error-major-shade",
+    "body": [
+      "--color-notice-error-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-error-minor-shade": {
+    "prefix": "--color-notice-error-minor-shade",
+    "body": [
+      "--color-notice-error-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-info": {
+    "prefix": "--color-notice-info",
+    "body": [
+      "--color-notice-info"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-info-half-shade": {
+    "prefix": "--color-notice-info-half-shade",
+    "body": [
+      "--color-notice-info-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-info-major-shade": {
+    "prefix": "--color-notice-info-major-shade",
+    "body": [
+      "--color-notice-info-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-info-minor-shade": {
+    "prefix": "--color-notice-info-minor-shade",
+    "body": [
+      "--color-notice-info-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-success": {
+    "prefix": "--color-notice-success",
+    "body": [
+      "--color-notice-success"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-success-half-shade": {
+    "prefix": "--color-notice-success-half-shade",
+    "body": [
+      "--color-notice-success-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-success-major-shade": {
+    "prefix": "--color-notice-success-major-shade",
+    "body": [
+      "--color-notice-success-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-success-minor-shade": {
+    "prefix": "--color-notice-success-minor-shade",
+    "body": [
+      "--color-notice-success-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-warning": {
+    "prefix": "--color-notice-warning",
+    "body": [
+      "--color-notice-warning"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-warning-half-shade": {
+    "prefix": "--color-notice-warning-half-shade",
+    "body": [
+      "--color-notice-warning-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-warning-major-shade": {
+    "prefix": "--color-notice-warning-major-shade",
+    "body": [
+      "--color-notice-warning-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-notice-warning-minor-shade": {
+    "prefix": "--color-notice-warning-minor-shade",
+    "body": [
+      "--color-notice-warning-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text": {
+    "prefix": "--color-text",
+    "body": [
+      "--color-text"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text-dark": {
+    "prefix": "--color-text-dark",
+    "body": [
+      "--color-text-dark"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text-dark-half-shade": {
+    "prefix": "--color-text-dark-half-shade",
+    "body": [
+      "--color-text-dark-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text-dark-major-shade": {
+    "prefix": "--color-text-dark-major-shade",
+    "body": [
+      "--color-text-dark-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text-dark-minor-shade": {
+    "prefix": "--color-text-dark-minor-shade",
+    "body": [
+      "--color-text-dark-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text-half-shade": {
+    "prefix": "--color-text-half-shade",
+    "body": [
+      "--color-text-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text-light": {
+    "prefix": "--color-text-light",
+    "body": [
+      "--color-text-light"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text-light-half-shade": {
+    "prefix": "--color-text-light-half-shade",
+    "body": [
+      "--color-text-light-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text-light-major-shade": {
+    "prefix": "--color-text-light-major-shade",
+    "body": [
+      "--color-text-light-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text-light-minor-shade": {
+    "prefix": "--color-text-light-minor-shade",
+    "body": [
+      "--color-text-light-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text-major-shade": {
+    "prefix": "--color-text-major-shade",
+    "body": [
+      "--color-text-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --color-text-minor-shade": {
+    "prefix": "--color-text-minor-shade",
+    "body": [
+      "--color-text-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --controls-border-width": {
+    "prefix": "--controls-border-width",
+    "body": [
+      "--controls-border-width"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --controls-btn-border-radius": {
+    "prefix": "--controls-btn-border-radius",
+    "body": [
+      "--controls-btn-border-radius"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --controls-form-border-radius": {
+    "prefix": "--controls-form-border-radius",
+    "body": [
+      "--controls-form-border-radius"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --controls-form-padding-x": {
+    "prefix": "--controls-form-padding-x",
+    "body": [
+      "--controls-form-padding-x"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --controls-form-padding-y": {
+    "prefix": "--controls-form-padding-y",
+    "body": [
+      "--controls-form-padding-y"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --controls-height-l": {
+    "prefix": "--controls-height-l",
+    "body": [
+      "--controls-height-l"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --controls-height-m": {
+    "prefix": "--controls-height-m",
+    "body": [
+      "--controls-height-m"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --font-size": {
+    "prefix": "--font-size",
+    "body": [
+      "--font-size"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --grid-list-column-gap": {
+    "prefix": "--grid-list-column-gap",
+    "body": [
+      "--grid-list-column-gap"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --grid-list-min-width": {
+    "prefix": "--grid-list-min-width",
+    "body": [
+      "--grid-list-min-width"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --grid-list-row-gap": {
+    "prefix": "--grid-list-row-gap",
+    "body": [
+      "--grid-list-row-gap"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --layout-content-max-width": {
+    "prefix": "--layout-content-max-width",
+    "body": [
+      "--layout-content-max-width"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --layout-mb": {
+    "prefix": "--layout-mb",
+    "body": [
+      "--layout-mb"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --layout-mt": {
+    "prefix": "--layout-mt",
+    "body": [
+      "--layout-mt"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --layout-pb": {
+    "prefix": "--layout-pb",
+    "body": [
+      "--layout-pb"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --layout-pt": {
+    "prefix": "--layout-pt",
+    "body": [
+      "--layout-pt"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --layout-side-padding": {
+    "prefix": "--layout-side-padding",
+    "body": [
+      "--layout-side-padding"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --layout-side-padding-mobile": {
+    "prefix": "--layout-side-padding-mobile",
+    "body": [
+      "--layout-side-padding-mobile"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --logo-max-width": {
+    "prefix": "--logo-max-width",
+    "body": [
+      "--logo-max-width"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --product-height": {
+    "prefix": "--product-height",
+    "body": [
+      "--product-height"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --shop-insales-panel-height": {
+    "prefix": "--shop-insales-panel-height",
+    "body": [
+      "--shop-insales-panel-height"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --size": {
+    "prefix": "--size",
+    "body": [
+      "--size"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --spec-color-1": {
+    "prefix": "--spec-color-1",
+    "body": [
+      "--spec-color-1"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-bg-default": {
+    "prefix": "--sticker-bg-default",
+    "body": [
+      "--sticker-bg-default"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-bg-default-half-shade": {
+    "prefix": "--sticker-bg-default-half-shade",
+    "body": [
+      "--sticker-bg-default-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-bg-default-major-shade": {
+    "prefix": "--sticker-bg-default-major-shade",
+    "body": [
+      "--sticker-bg-default-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-bg-default-minor-shade": {
+    "prefix": "--sticker-bg-default-minor-shade",
+    "body": [
+      "--sticker-bg-default-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-font-size": {
+    "prefix": "--sticker-font-size",
+    "body": [
+      "--sticker-font-size"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-preorder": {
+    "prefix": "--sticker-preorder",
+    "body": [
+      "--sticker-preorder"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-preorder-half-shade": {
+    "prefix": "--sticker-preorder-half-shade",
+    "body": [
+      "--sticker-preorder-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-preorder-major-shade": {
+    "prefix": "--sticker-preorder-major-shade",
+    "body": [
+      "--sticker-preorder-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-preorder-minor-shade": {
+    "prefix": "--sticker-preorder-minor-shade",
+    "body": [
+      "--sticker-preorder-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-sale": {
+    "prefix": "--sticker-sale",
+    "body": [
+      "--sticker-sale"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-sale-half-shade": {
+    "prefix": "--sticker-sale-half-shade",
+    "body": [
+      "--sticker-sale-half-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-sale-major-shade": {
+    "prefix": "--sticker-sale-major-shade",
+    "body": [
+      "--sticker-sale-major-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --sticker-sale-minor-shade": {
+    "prefix": "--sticker-sale-minor-shade",
+    "body": [
+      "--sticker-sale-minor-shade"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --subcollection-border-radius": {
+    "prefix": "--subcollection-border-radius",
+    "body": [
+      "--subcollection-border-radius"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --submenu-indent": {
+    "prefix": "--submenu-indent",
+    "body": [
+      "--submenu-indent"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --submenu-item-vertical-indent": {
+    "prefix": "--submenu-item-vertical-indent",
+    "body": [
+      "--submenu-item-vertical-indent"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --submenu-max-width": {
+    "prefix": "--submenu-max-width",
+    "body": [
+      "--submenu-max-width"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --submenu-min-width": {
+    "prefix": "--submenu-min-width",
+    "body": [
+      "--submenu-min-width"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --tabs-head-height": {
+    "prefix": "--tabs-head-height",
+    "body": [
+      "--tabs-head-height"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --zindex-dropdown": {
+    "prefix": "--zindex-dropdown",
+    "body": [
+      "--zindex-dropdown"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --zindex-modal": {
+    "prefix": "--zindex-modal",
+    "body": [
+      "--zindex-modal"
+    ],
+    "description": "InSales CSS variable"
+  },
+  "InSales var --zindex-overlay": {
+    "prefix": "--zindex-overlay",
+    "body": [
+      "--zindex-overlay"
+    ],
+    "description": "InSales CSS variable"
+  }
+}
