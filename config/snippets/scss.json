@@ -698,5 +698,50 @@
       "--zindex-overlay"
     ],
     "description": "InSales CSS variable"
+  },
+  "Media max 768": {
+    "prefix": "mmax768",
+    "body": [
+      "@media (max-width: 768px) {",
+      "  ${0}",
+      "}"
+    ],
+    "description": "Media query max-width 768px"
+  },
+  "Media min 769": {
+    "prefix": "mmin769",
+    "body": [
+      "@media (min-width: 769px) {",
+      "  ${0}",
+      "}"
+    ],
+    "description": "Media query min-width 769px"
+  },
+  "Media max custom": {
+    "prefix": "mmax",
+    "body": [
+      "@media (max-width: ${1:768px}) {",
+      "  ${0}",
+      "}"
+    ],
+    "description": "Media query with custom max-width"
+  },
+  "Media min custom": {
+    "prefix": "mmin",
+    "body": [
+      "@media (min-width: ${1:769px}) {",
+      "  ${0}",
+      "}"
+    ],
+    "description": "Media query with custom min-width"
+  },
+  "Media range custom": {
+    "prefix": "mrange",
+    "body": [
+      "@media (min-width: ${1:769px}) and (max-width: ${2:1024px}) {",
+      "  ${0}",
+      "}"
+    ],
+    "description": "Media query with custom min and max"
   }
 }
